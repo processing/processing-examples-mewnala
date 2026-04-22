@@ -1,15 +1,16 @@
 # processing-examples-mewnala
 
-Ports of the Processing examples to Python, using mewnala (libprocessing), forked from https://github.com/processing/processing-examples.
+Ports of the official Processing examples to Python, using mewnala (libprocessing), forked from https://github.com/processing/processing-examples. The examples are organized by topic, and the original `.pde` files are included for reference.
 
-The original examples were designed so that each sketch demonstrates a specific function or feature. This makes them a useful baseline for identifying missing functionality or differences in behavior. The goal of this project is not just to translate examples to Python, but to use them as a systematic way to test libprocessing and mewnala. Both libprocessing and mewnala are still in early development. 
+(Working title) "mewnala" is a new Python implementation of Processing built on top of libprocessing, an experimental Rust library that aims to support the Processing API across different programming languages. It is still in early development.
 
-The examples are organized by topic, and the original `.pde` files are included for reference.
+This project exists to help develop mewnala and libprocessing. Each example in this repo focuses on a specific function or feature of Processing. This makes the collection a practical way to test how well those features are supported in mewnala.
+
+By porting the examples, we can quickly identify missing features, inconsistencies, and differences in behavior compared to Processing (Java). Like their original counterpart, the examples will also serve as a reference for how to use mewnala in Python.
 
 For more information about libprocessing and mewnala, see https://github.com/processing/libprocessing/.
 
 ## Running the examples
-
 To run the python examples install Python and mewnala following the instructions at https://github.com/processing/libprocessing/#getting-started and use `uv` to run the examples. For example:
 
 ```
@@ -22,7 +23,6 @@ To get involved, go to the [progress tracker](https://github.com/processing/proc
 If you have any questions, suggestions, or want to get involved, please join the discussion on Discord (https://discord.processing.org) in the #libprocessing channel. 
 
 ## Porting examples
-
 To port an example, follow these steps:
 
 1. copy the `.pde` file to a `.py` file in the same directory.
@@ -37,7 +37,6 @@ To port an example, follow these steps:
 If an example cannot be ported, or behaves differently please report it here: https://github.com/processing/libprocessing/issues
 
 ## Reporting issues
-
 Some features are not yet implemented, and some examples may not be possible to port yet. This is expected and is part of why this porting project exists. If you encounter an issue while porting an example, please report it here: https://github.com/processing/libprocessing/issues
 
 When reporting issues, include:
@@ -47,6 +46,9 @@ When reporting issues, include:
 * what actually happens
 * any missing functions or unexpected behavior
 * include screenshots or code snippets if helpful
+
+## Prior work
+Some of the examples have been ported to Python (Processing.py) before (see https://github.com/jdf/processing.py/tree/master/examples.py). However, only a subset of all examples have been ported, and Processing.py syntax uses camelCase for function names, which is different from the snake_case convention used in mewnala.
 
 ## Credits
 The examples without a credit line were written by Casey Reas or Ben Fry and they are in the public domain. Daniel Shiffman's examples are in the public domain. We appreciate a link back to the original and/or an acknowledgement when they are used. The copyrights for other credited files remains with the original authors.
