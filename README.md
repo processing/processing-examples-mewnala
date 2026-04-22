@@ -1,6 +1,6 @@
-# processing-examples
+# processing-examples-mewnala
 
-This is a port of the Processing examples to Python, using mewnala (libprocessing), forked from https://github.com/processing/processing-examples.
+Ports of the Processing examples to Python, using mewnala (libprocessing), forked from https://github.com/processing/processing-examples.
 
 The original examples were designed so that each sketch demonstrates a specific function or feature. This makes them a useful baseline for identifying missing functionality or differences in behavior. The goal of this project is not just to translate examples to Python, but to use them as a systematic way to test libprocessing and mewnala. Both libprocessing and mewnala are still in early development. 
 
