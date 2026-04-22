@@ -1,14 +1,14 @@
 # processing-examples-mewnala
 
-Ports of the official Processing examples to Python, using mewnala (libprocessing), forked from https://github.com/processing/processing-examples. The examples are organized by topic, and the original `.pde` files are included for reference.
+This repo is a community effort to port the official Processing examples to Python using mewnala (libprocessing).
 
-(Working title) "mewnala" is a new Python implementation of Processing built on top of libprocessing, an experimental Rust library that aims to support the Processing API across different programming languages. It is still in early development.
+## About mewnala and libprocessing
+mewnala (working title) is a new Python implementation of Processing built on top of libprocessing, an experimental Rust library that aims to support the Processing API across different programming languages. It is still in early development. For more information about libprocessing and mewnala, see https://github.com/processing/libprocessing/.
 
+## Motivation
 This project exists to help develop mewnala and libprocessing. Each example in this repo focuses on a specific function or feature of Processing. This makes the collection a practical way to test how well those features are supported in mewnala.
 
 By porting the examples, we can quickly identify missing features, inconsistencies, and differences in behavior compared to Processing (Java). Like their original counterpart, the examples will also serve as a reference for how to use mewnala in Python.
-
-For more information about libprocessing and mewnala, see https://github.com/processing/libprocessing/.
 
 ## Running the examples
 To run the python examples install Python and mewnala following the instructions at https://github.com/processing/libprocessing/#getting-started and use `uv` to run the examples. For example:
@@ -23,6 +23,8 @@ To get involved, go to the [progress tracker](https://github.com/processing/proc
 If you have any questions, suggestions, or want to get involved, please join the discussion on Discord (https://discord.processing.org) in the #libprocessing channel. 
 
 ## Porting examples
+The examples are organized by topic, and the original `.pde` files are included for reference.
+
 To port an example, follow these steps:
 
 1. copy the `.pde` file to a `.py` file in the same directory.
