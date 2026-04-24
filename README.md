@@ -42,6 +42,38 @@ To port an example, follow these steps:
 
 If an example cannot be ported, or behaves differently please report it here: https://github.com/processing/libprocessing/issues
 
+### Minimal example of a port
+
+#### Processing (Java)
+
+```java
+void setup() {
+  size(400, 400);
+  background(255);
+}
+
+void draw() {
+  fill(255, 100, 200);
+  circle(200, 200, 100);
+}
+```
+
+#### mewnala (Python)
+
+```python
+from mewnala import *
+
+def setup():
+    size(400, 400)
+    background(255)
+
+def draw():
+    fill(255, 100, 200)
+    circle(200, 200, 100)
+
+run()
+```
+
 ## Reporting issues
 Some features are not yet implemented, and some examples may not be possible to port yet. This is expected and is part of why this porting project exists. If you encounter an issue while porting an example, please report it here: https://github.com/processing/libprocessing/issues
 
