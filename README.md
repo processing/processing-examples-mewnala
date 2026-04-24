@@ -100,6 +100,8 @@ When reporting issues, include:
 * any missing functions or unexpected behavior
 * include screenshots or code snippets if helpful
 
+For example: https://github.com/processing/libprocessing/issues/132
+
 After reporting an issue, comment on the corresponding issue in the progress tracker (for example [Port `Basics` / `Arrays` / `Array` #3](https://github.com/processing/processing-examples-mewnala/issues/3)) with a link to the libprocessing issue you just created.
 
 ## Prior work
