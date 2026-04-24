@@ -40,7 +40,7 @@ To port an example, follow these steps:
 > [!IMPORTANT]
 > Always compare your port with the original by running the `.pde` file in the Processing IDE.
 
-If an example cannot be ported, or behaves differently please report the issues (see [Reporting issues](#reporting-issues) below).
+If an example cannot be ported, or behaves differently please let us know (see [Reporting issues](#reporting-issues) below).
 
 ### Minimal example of a port
 
