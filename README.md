@@ -100,6 +100,8 @@ When reporting issues, include:
 * any missing functions or unexpected behavior
 * include screenshots or code snippets if helpful
 
+After reporting an issue, comment on the corresponding issue in the progress tracker (for example [Port `Basics` / `Arrays` / `Array` #3](https://github.com/processing/processing-examples-mewnala/issues/3)) with a link to the libprocessing issue you just created.
+
 ## Prior work
 Some of the examples have been ported to Python (Processing.py) before (see https://github.com/jdf/processing.py/tree/master/examples.py). However, only a subset of all examples have been ported, and Processing.py syntax uses camelCase for function names, which is different from the snake_case convention used in mewnala.
 
