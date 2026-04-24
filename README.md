@@ -53,8 +53,11 @@ void setup() {
 }
 
 void draw() {
+  pushMatrix();
+  translate(mouseX, mouseY);
   fill(255, 100, 200);
-  circle(200, 200, 100);
+  circle(0, 0, 50);
+  popMatrix();
 }
 ```
 
@@ -68,15 +71,23 @@ def setup():
     background(255)
 
 def draw():
+    push_matrix()
+    translate(mouse_x, mouse_y)
     fill(255, 100, 200)
-    circle(200, 200, 100)
+    circle(0, 0, 50)
+    pop_matrix()
 
 run()
 ```
 
 Python syntax is different from Java, but the structure of the code is very similar.
 
-Note the import statement at the top to import the mewnala library, and the call to `run()` at the end to start the sketch. These may not be necessary in the future, but they are needed for now.
+The main differences to note are:
+* the use of `def` to define functions instead of `void`
+* the use of snake_case for function and variable names instead of camelCase
+* the use of tabs for indentation instead of curly braces to define code blocks
+
+Also note the `from mewnala import *` statement at the top to import the mewnala library, and the call to `run()` at the end to start the sketch. These may not be necessary in the future, but they are needed for now.
 
 ## Reporting issues
 Some features are not yet implemented, and some examples may not be possible to port yet. This is expected and is part of why this porting project exists. If you encounter an issue while porting an example, please report it here: https://github.com/processing/libprocessing/issues
