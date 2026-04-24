@@ -22,9 +22,9 @@ uv run Basics/Color/Hue/Hue.py
 ```
 
 ## Getting involved
-To get involved, go to the [progress tracker](https://github.com/processing/processing-examples-mewnala/issues/1), comment on the issue to let us know which example you'd like to work on. Feel free to ask for help if you need it.
+To get involved, go to the [progress tracker](https://github.com/processing/processing-examples-mewnala/issues/1), find an issue you'd like to work on and comment on it to let us know you'd like to work on it. 
 
-If you have any questions, or just want to get in touch, join the the `#libprocessing` channel on Discord (https://discord.processing.org). 
+If you have any questions, need help, or just want to get in touch, join the the `#libprocessing` channel on Discord (https://discord.processing.org). 
 
 ## Porting examples
 The examples are organized by topic, and the original `.pde` files are included for reference.
