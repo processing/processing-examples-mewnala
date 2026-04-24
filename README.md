@@ -74,6 +74,10 @@ def draw():
 run()
 ```
 
+Python syntax is different from Java, but the structure of the code is very similar.
+
+Note the import statement at the top to import the mewnala library, and the call to `run()` at the end to start the sketch. These may not be necessary in the future, but they are needed for now.
+
 ## Reporting issues
 Some features are not yet implemented, and some examples may not be possible to port yet. This is expected and is part of why this porting project exists. If you encounter an issue while porting an example, please report it here: https://github.com/processing/libprocessing/issues
 
