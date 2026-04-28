@@ -7,6 +7,9 @@ This repo is a community effort to port the official Processing examples to Pyth
 
 **libprocessing** is an experimental Rust library that aims to support the Processing API across different programming languages. 
 
+**TRACK THE API COVERAGE**
+https://github.com/processing/libprocessing/issues/153
+
 For more information about libprocessing and mewnala, see https://github.com/processing/libprocessing/.
 
 ## Motivation
