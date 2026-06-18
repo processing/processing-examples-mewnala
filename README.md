@@ -8,7 +8,10 @@ This repo is a community effort to port the official Processing examples to Pyth
 Want to help? Make sure to read the [Motivation](#motivation) and [Getting Involved](#getting-involved) sections below.
 
 ## About mewnala and libprocessing
-**mewnala** (working title) is a new Python implementation of Processing built on top of libprocessing. 
+**mewnala** (working title) is a new Python implementation of Processing built on top of libprocessing.
+
+> [!WARNING]
+> mewnala is under active development. Some examples in this repo may not work with the latest version, or may require updates as the API evolves.
 
 **libprocessing** is an experimental Rust library that aims to support the Processing API across different programming languages. 
 
