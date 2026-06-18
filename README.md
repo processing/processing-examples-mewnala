@@ -1,6 +1,11 @@
+> [!NOTE]
+> This is a work in progress. Not all examples have been ported yet, so you will find directories that only contain the original `.pde` files.
+
 # processing-examples-mewnala
 
 This repo is a community effort to port the official Processing examples to Python using mewnala (libprocessing).
+
+Want to help? Make sure to read the [Motivation](#motivation) and [Getting Involved](#getting-involved) sections below.
 
 ## About mewnala and libprocessing
 **mewnala** (working title) is a new Python implementation of Processing built on top of libprocessing. 
@@ -27,9 +32,9 @@ uv run Basics/Color/Hue/Hue.py
 ## Getting involved
 To get involved, check the [progress tracker](https://github.com/processing/processing-examples-mewnala/issues/1), pick an issue you’d like to work on, and leave a comment to let us know.
 
-If you have questions or need help, join the `#libprocessing` channel on Discord: [https://discord.processing.org](https://discord.processing.org).
+If you have questions or need help, join the [`#libprocessing`](https://discord.gg/m6J4XbGWCn) channel on Discord.
 
-## Porting examples
+### Porting examples
 The examples are organized by topic, and the original `.pde` files are included for reference.
 
 To port an example, follow these steps:
