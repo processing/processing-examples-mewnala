@@ -1,22 +1,23 @@
 """
-Redraw. 
-  
-The redraw() function makes draw() execute once.    
-In this example, draw() is executed once every time 
-the mouse is clicked. 
+Redraw.
+
+The redraw() function makes draw() execute once.
+In this example, draw() is executed once every time
+the mouse is clicked.
 """
 
 from mewnala import *
 
 y = 180
 
+
 def setup():
-    """ 
-    The statements in the setup() function 
+    """
+    The statements in the setup() function
     execute once when the program begins.
     """
-    size(640, 360)    # Size should be the first statement
-    stroke(255)         # Set line drawing color to white
+    size(640, 360)  # Size should be the first statement
+    stroke(255)  # Set line drawing color to white
     no_loop()
 
 
@@ -28,14 +29,15 @@ def draw():
     line is executed again.
     """
     global y
-    background(0)     # Set the background to black
+    background(0)  # Set the background to black
     y = y - 4
-    if (y < 0):
+    if y < 0:
         y = height
     line(0, y, width, y)
 
 
 def mouse_pressed():
     redraw()
+
 
 run()
