@@ -1,11 +1,6 @@
 # Ignore this stuff
 .DS_Store
 
-# Files fron uv
-pyproject.toml
-uv.lock
-.python-version
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

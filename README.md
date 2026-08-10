@@ -42,11 +42,10 @@ The examples are organized by topic, and the original `.pde` files are included 
 
 To port an example, follow these steps:
 
-1. copy the `.pde` file to a `.py` file in the same directory.
-2. run `uv init --bare` to create the `pyproject.toml` file.
-3. add `mewnala` as a dependency with `uv add mewnala` (this may take a while to complete the first time).
-4. adapt the code to use mewnala and Python syntax.
-5. test the example by running it with `uv run path/to/example.py`.
+1. run `uv sync` to create the Python environment.
+2. copy the `.pde` file to a `.py` file in the same directory.
+3. adapt the code to use mewnala and Python syntax.
+4. test the example by running it with `uv run path/to/example.py`.
 
 > [!IMPORTANT]
 > Always compare your port with the original by running the `.pde` file in the Processing IDE.

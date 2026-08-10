@@ -1,0 +1,30 @@
+[project]
+name = "processing-examples-mewnala"
+version = "0.1.0"
+description = "Python examples for libprocessing (mewnala)"
+authors = [
+    { name = "The Processing Foundation" },
+    { name = "Ülgen Sarıkavak", email = "foss@ulgenwanders.net" },
+]
+requires-python = ">=3.10,<3.14"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Graphics",
+]
+dependencies = [
+    "mewnala==0.0.8",
+]
+
+[project.urls]
+Homepage = "https://github.com/processing/processing-examples-mewnala"
+Repository = "https://github.com/processing/processing-examples-mewnala"
+Issues = "https://github.com/processing/processing-examples-mewnala/issues"
+
+[tool.uv]
+required-version = ">=0.8.4"  # The earliest version that supports the current lock file revision (3)
+package = false
